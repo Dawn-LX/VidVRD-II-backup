@@ -1,0 +1,14 @@
+*.pyc
+visualization/
+object_detection/
+*.pkl
+__pycache__/
+*.so
+build/
+compute_overlap.c
+
+.vscode/
+
+config/trial
+.ipynb_checkpoints/
+*.ipynb
