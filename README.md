@@ -1,3 +1,9 @@
+
+## NOTE
+the original official VidVRD-II has been deleted, we provide a backup version
+
+refer to vIoU calculation in `evaluation/common.py`, it has `w=xmax-xmin+1` (Line 102), so the coords should not be normalized
+
 ## VidVRD-II
 
 This repository contains source codes for "Video Visual Relation Detection via Iterative Inference" (MM'21) [[paper](https://dl.acm.org/doi/abs/10.1145/3474085.3475263)].
