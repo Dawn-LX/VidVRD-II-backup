@@ -2,7 +2,7 @@
 ## NOTE
 the original official VidVRD-II has been deleted, we provide a backup version
 
-refer to vIoU calculation in `evaluation/common.py`, it has `w=xmax-xmin+1` (Line 102), so the coords should not be normalized
+refer to vIoU calculation in `evaluation/common.py`, it has `w=xmax-xmin+1` (Line 102), so the coords should not be normalized. I.e., we shall use `normalize_coords=False`
 
 ## VidVRD-II
 
